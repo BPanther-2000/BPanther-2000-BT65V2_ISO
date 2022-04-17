@@ -35,7 +35,7 @@ jobs:
         run: west zephyr-export
       - name: West Build (bt65)
         run: west build -s zmk/app -b bt65 -- -DZMK_CONFIG="${GITHUB_WORKSPACE}/config"
-      - name: bt65 Kconfig file
+      - name: bt60 Kconfig file
         run: cat build/zephyr/.config | grep -v "^#" | grep -v "^$"
       - name: Rename zmk.uf2
         run: cp build/zephyr/zmk.uf2 bt65.uf2
