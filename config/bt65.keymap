@@ -14,7 +14,7 @@
 		default_layer {
 				// ------------------------------------------------------------------------------------------------------------
 				// |  ESC  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |  0  |  -  |  =  | BSPC  | DEL	| HOME	|
-				// |  TAB  |  Q  |  W  |  E  |  R  |  T  |  Y  |  U  |  I  |  O  |  P  |  [  |  ]   | 					END
+				// |  TAB  |  Q  |  W  |  E  |  R  |  T  |  Y  |  U  |  I  |  O  |  P  |  [  |  ]   | 					END | 
 				// | CAPS  |  A  |  S  |  D  |  F  |  G  |  H  |  J  |  K  |  L  |  ;  |  '  |   ` |	  ENTER    |PGUP	|
 				// | SHIFT |  \  |  Z  |  X  |  C  |  V  |  B  |  N  |  M  |  ,  |  .  | /   |   SHIFT  | UP   | PGDN       |
 				// |  CTL  |  WIN  |  ALT  |            SPACE               | ALT | 1    |  	| LEFT |  DOWN    | RIGHT	|
@@ -34,7 +34,7 @@
 				&reset &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12 &trans &kp PSCRN &trans
 				&trans &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &trans &trans &kp INS &trans &trans &kp SLCK &kp PAUSE_BREAK  &trans
 				&trans &out OUT_BLE &out OUT_USB &trans &trans &trans &trans &trans &trans &trans &trans  &trans &trans  &bootloader &trans
-				&rgb_ug RGB_TOG &bl BL_TOG &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &kp C_VOL_UP &kp trans
+				&rgb_ug RGB_TOG &bl BL_TOG &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &kp C_VOL_UP &trans
 				&bt BT_CLR &bt BT_PRV &bt BT_NXT               &trans                            &kp C_MUTE   &trans &kp C_PREV    &kp C_VOL_DN &kp C_NEXT
 			>;
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
