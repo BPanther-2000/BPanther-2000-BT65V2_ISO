@@ -1,4 +1,4 @@
-![alt text](keyboard-layout-thumb.png)
+![alt text](keyboard-layout_ISO.png)
 
 # zmk-config
 This is the ZMK-Config repo for the Polarity works BT60 keyboard, with this you can customise your layout and keymap to suit your exact needs.
