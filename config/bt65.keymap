@@ -17,7 +17,7 @@
 				// |  TAB  |  Q  |  W  |  E  |  R  |  T  |  Y  |  U  |  I  |  O  |  P  |  [  |  ]   | 					END | 
 				// | CAPS  |  A  |  S  |  D  |  F  |  G  |  H  |  J  |  K  |  L  |  ;  |  '  |   ` |	  ENTER    |PGUP	|
 				// | SHIFT |  \  |  Z  |  X  |  C  |  V  |  B  |  N  |  M  |  ,  |  .  | /   |   SHIFT  | UP   | PGDN       |
-				// |  CTL  |  WIN  |  ALT  |            SPACE               | ALT | 1    |  	| LEFT |  DOWN    | RIGHT	|
+				// |  CTL  |  WIN  |  ALT  |            SPACE               | Fn | ALT   |  	| LEFT |  DOWN    | RIGHT	|
 				// ------------------------------------------------------------------------------------------------------------
 			bindings = <
 
